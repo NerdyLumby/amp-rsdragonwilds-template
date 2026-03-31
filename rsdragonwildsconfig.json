@@ -1,8 +1,8 @@
 [
   {
     "DisplayName": "Game Port",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "UDP port used by the server.",
     "Keywords": "port,game,udp",
     "FieldName": "$GamePort",
@@ -16,8 +16,8 @@
   },
   {
     "DisplayName": "Owner ID",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "Your Dragonwilds Player ID from the bottom of the in-game Settings screen.",
     "Keywords": "owner,id,player,my player id",
     "FieldName": "OwnerId",
@@ -31,8 +31,8 @@
   },
   {
     "DisplayName": "Server Name",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "Public name of the server.",
     "Keywords": "server,name",
     "FieldName": "ServerName",
@@ -45,8 +45,8 @@
   },
   {
     "DisplayName": "Default World Name",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "World name used when the dedicated server creates or loads its default world.",
     "Keywords": "world,name,default,save",
     "FieldName": "DefaultWorldName",
@@ -59,8 +59,8 @@
   },
   {
     "DisplayName": "Admin Password",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "Password used to access the in-game server management/admin screen.",
     "Keywords": "admin,password",
     "FieldName": "AdminPassword",
@@ -73,8 +73,8 @@
   },
   {
     "DisplayName": "World Password",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "Optional join password. Leave blank for a public world.",
     "Keywords": "world,password,join,private",
     "FieldName": "WorldPassword",
@@ -86,8 +86,8 @@
   },
   {
     "DisplayName": "Player Limit",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "Maximum number of players. Jagex currently supports up to 6 players on dedicated servers.",
     "Keywords": "players,max,limit,slots",
     "FieldName": "$MaxUsers",
@@ -103,8 +103,8 @@
   },
   {
     "DisplayName": "Custom Command Line Arguments",
-    "Category": "RuneScape Dragonwilds",
-    "Subcategory": "Server",
+    "Category": "RuneScape Dragonwilds:stadia_controller",
+    "Subcategory": "Server:settings:1",
     "Description": "Extra startup arguments. Do not repeat settings already managed by AMP.",
     "Keywords": "custom,args,command,line",
     "FieldName": "CustomArgs",
