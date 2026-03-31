@@ -1,0 +1,60 @@
+[
+  {
+    "UpdateStageName": "SteamCMD Download",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "4019830",
+    "UpdateSourceArgs": "1374490",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create Linux Config Directory",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"mkdir -p \\\"{{$FullBaseDir}}RSDragonwilds/Saved/Config/Linux\\\"\"",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create Linux DedicatedServer.ini",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "CreateFile",
+    "UpdateSourceData": "[ServerSettings]\n",
+    "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/Linux/DedicatedServer.ini",
+    "OverwriteExistingFiles": false,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Set Linux Executable Flag",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwildsServer.sh",
+    "SkipOnFailure": true
+  },
+  {
+    "UpdateStageName": "Create Windows Config Directory",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "cmd.exe",
+    "UpdateSourceArgs": "/C if not exist \"{{$FullBaseDir}}RSDragonwilds\\Saved\\Config\\WindowsServer\" mkdir \"{{$FullBaseDir}}RSDragonwilds\\Saved\\Config\\WindowsServer\"",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create Windows DedicatedServer.ini",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "CreateFile",
+    "UpdateSourceData": "[ServerSettings]\r\n",
+    "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds\\Saved\\Config\\WindowsServer\\DedicatedServer.ini",
+    "OverwriteExistingFiles": false,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Create steam_appid.txt",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateFile",
+    "UpdateSourceData": "1374490",
+    "UpdateSourceArgs": "{{$FullBaseDir}}steam_appid.txt",
+    "OverwriteExistingFiles": false,
+    "SkipOnFailure": true
+  }
+]
