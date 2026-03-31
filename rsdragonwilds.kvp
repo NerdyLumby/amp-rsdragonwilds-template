@@ -1,4 +1,4 @@
-Meta.DisplayName=NL - RuneScape: Dragonwilds
+Meta.DisplayName=NL - RuneScape Dragonwilds
 Meta.Description=RuneScape: Dragonwilds Dedicated Server
 Meta.OS=Windows, Linux
 Meta.AarchSupport=Unknown
@@ -27,7 +27,7 @@ Meta.BreakingReleaseNotes=
 Meta.AppConfigId=d2d08d15-6f2b-44d6-9f12-1f5bb0f8f7f0
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
-App.DisplayName=Custom - RuneScape: Dragonwilds
+App.DisplayName=Custom - RuneScape Dragonwilds
 App.RootDir=./runescape-dragonwilds/
 App.BaseDirectory=./runescape-dragonwilds/4019830/
 App.SteamWorkshopDownloadLocation=
